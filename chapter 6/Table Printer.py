@@ -8,8 +8,8 @@ def printTable(table_data):
     r_val = max(col_widths)
     for row in range(len(table_data[0])):
         for col in range(len(table_data)):
-            print(table_data[col][row].rjust(r_val), sep='')
-    print()
+            print(table_data[col][row].rjust(r_val), end='')
+        print()
 
 
 
