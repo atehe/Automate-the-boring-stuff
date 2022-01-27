@@ -1,17 +1,14 @@
+def comma_code(word_list):
+    # handle empty list or single element list
+    if len(word_list) == 0:
+        return word_list[0]
+    elif len(word_list) == 1:
+        return ""
 
-def comma_code(list_val):
-    list_str=''
-    for word in list_val:
-        if word == list_val[0]:
-            list_str += word
-        elif word == list_val[-1]:
-            list_str += ' and ' + word
-        else:
-            list_str += ', ' + word
-    return list_str
-
+    word_end = " and " + word_list[-1]
+    word_start = ", ".join(word_list[:-1])
+    return word_start + word_end
 
 
-spam = ['apples', 'bananas', 'tofu', 'cats']
+spam = ["apples", "bananas", "tofu", "cats"]
 print(comma_code(spam))
-
