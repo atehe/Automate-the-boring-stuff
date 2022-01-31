@@ -6,9 +6,9 @@ def printTable(table_data):
             if len(word) > max_just:
                 max_just = len(word)
 
-    for row in range(len(table_data[0])):
-        for data in range(len(table_data)):
-            print(table_data[data][row].rjust(max_just), end="")
+    for col, _ in enumerate(table_data[0]):
+        for row, _ in enumerate(table_data):
+            print(table_data[row][col].rjust(max_just), end="")
         print()
 
 
