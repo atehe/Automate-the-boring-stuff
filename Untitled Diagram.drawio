@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-04-15T21:31:03.038Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kFOfubkg-1UkYYICvdcJ" version="21.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-04-15T21:37:05.683Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="CvIVB9smp-3KwC7u3Uzl" version="21.0.8" type="github" pages="2">
   <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
     <mxGraphModel dx="1434" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
       <root>
@@ -11,20 +11,34 @@
           <mxGeometry x="270" y="419" width="170" height="640" as="geometry" />
         </mxCell>
         <mxCell id="3a17f1ce550125da-4" value="&lt;b&gt;PREPAID SERVICE&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Processes prepaid requests&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="650" y="640" width="300" height="100" as="geometry" />
+          <mxGeometry x="655" y="640" width="300" height="100" as="geometry" />
         </mxCell>
         <mxCell id="3a17f1ce550125da-5" value="&lt;b&gt;POSTPAID SERVICE&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Processes postpaid requests&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="655" y="506" width="290" height="114" as="geometry" />
+          <mxGeometry x="660" y="500" width="290" height="114" as="geometry" />
         </mxCell>
-        <mxCell id="3a17f1ce550125da-6" value="&lt;b&gt;VENDING MODULES&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Manages things that go on during vending. Could be seperated and included things like thrift, submetering etc&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
-          <mxGeometry x="1130" y="564" width="300" height="120" as="geometry" />
+        <mxCell id="3a17f1ce550125da-6" value="&lt;b&gt;VENDING MODULES&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Manages things that go on during vending. Could be seperated into different services. C and included things like thrift, subman be ruetering etc&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="1050" y="590" width="300" height="120" as="geometry" />
         </mxCell>
         <mxCell id="3a17f1ce550125da-8" value="&lt;b&gt;USERS&amp;nbsp;&lt;br&gt;&lt;/b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Admin, Vendors, Discos, Customers&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" vertex="1">
           <mxGeometry x="100" y="664" width="120" height="150" as="geometry" />
         </mxCell>
         <mxCell id="oaKNyn6OFyikyZPhIBUf-8" value="&lt;b&gt;VENDORS MANAGEMENT&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Service for vendor side, includes dashboard, transactions reporting, filtering etc&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
-          <mxGeometry x="650" y="790" width="300" height="120" as="geometry" />
+          <mxGeometry x="655" y="770" width="300" height="120" as="geometry" />
         </mxCell>
+        <mxCell id="oaKNyn6OFyikyZPhIBUf-9" value="&lt;b&gt;NOTIFICATION SERVICE&lt;/b&gt;&lt;br&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Could be a queuing system that picks (subs) from notification queue that all the services are published&lt;/span&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=20;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=2;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="661" y="940" width="289" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="w-HBNIqU8GMxjDqUyf8S-1" value="&lt;font style=&quot;&quot;&gt;&lt;b&gt;KYC SERVICE&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;Handles KYC for Vendors or customers&lt;/span&gt;&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=1;fontSize=18;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="661" y="1090" width="300" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="yp_jWA0SPww1RNGan-g8" name="Page-2">
+    <mxGraphModel dx="1434" dy="714" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
       </root>
     </mxGraphModel>
   </diagram>
